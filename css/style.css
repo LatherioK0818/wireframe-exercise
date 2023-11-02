@@ -1,0 +1,48 @@
+header,footer{
+    background-color: #444444;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    color:#eee;
+    height: 150px;
+}
+main{
+display: flex;
+flex-direction: column;
+padding: 40px;
+align-items: center;
+}
+#content{
+width: 960px;
+}
+#second-section{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#third-section{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+}
+#text-box{
+    width: 47%;
+}
+h1{
+    font-size: 10px;
+}
+ p{
+    overflow-y: hidden;
+    height: 325px;
+    font-style: italic;
+    margin: 10px 0;
+ } 
+  button {
+    
+    background: black;
+    border:none;
+    padding: 10px;
+    color: #eee;
+    width: 150px;
+  }
